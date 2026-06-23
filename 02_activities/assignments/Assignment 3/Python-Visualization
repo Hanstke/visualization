@@ -1,0 +1,57 @@
+
+Dataset: “Toronto Raccoon Activity Index” 
+https://open.toronto.ca/dataset/toronto-raccoon-activity-index/
+   
+ > What software did you use to create your data visualization?
+
+ Python.
+
+ > Who is your intended audience? 
+
+ Torontonians who are interested in the behaviour of local raccoons, and in how their behaviour influences incidents of raccoon-human
+ standoffs in the city.
+    
+ > What information or message are you trying to convey with your visualization? 
+
+ While the data quite logically demonstrates that more confident raccoons are more likely to become engaged in raccoon-human standoffs,
+ the number of complaints logged about these standoffs varies quite dramatically, with incidents where no complaints logged, for example, 
+ about raccoons logged at a confidence 8 level and who engaged in up to 5 standoffs with humans. This demonstrates the need for further
+ complaint logging to ensure that raccoon activity in Toronto is being accurately tracked, particularly given the potential for raccoons
+ to carry rabies.
+    
+ > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+ I wanted my visualization to clearly convey my chosen data features, and to be easy to interpret. After testing out different options,
+ including a scatterplot, I determined that the large volume of data was most clearly conveyed via a line graph. I find that the
+ different lines on the graph, further differentiated by number of logged complaints, is relatively clear and easy to read (although
+ I was not able to fully differentiate the straight line occurring for confident level 10 raccoons, where the data does overlap and
+ become trickier to interpret). Overall I think I settled on the clearest possible design given the available data.
+    
+ > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+ My data visualization utilizes publicly available data, and publicly available Python code to create the visualization, so it is reproducible.
+    
+ > How did you ensure that your data visualization is accessible?
+
+ I initially considered using a colour palette based upon the colours of a raccoon, but the lack of contrast between variations of gray and brown
+ would have made the visualization potentially inaccessible, so I instead used a wider range of colours with distinct contrast. I also added the 
+ star markers to make the data points more clearly identifiable.
+    
+ > Who are the individuals and communities who might be impacted by your visualization? 
+
+ Torontonians who may interact with raccoons in their daily lives navigating the city. 
+    
+ > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+ I tested out some different combinations of features, including charting the weight of raccoons against their confidence levels, or using different
+ features to designate the hue and style of the visualization. I found that confidence vs. weight did not produce any interesting patterns to chart
+ in the visualization, while most features in the dataset varied too widely to be usefully charted with the hue or style variations. Ultimately, the
+ combination of confidence levels vs. raccoon-human standoffs, with logged complaints,  
+    
+ > What ‘underwater labour’ contributed to your final data visualization product?
+
+ Firstly, the labour of the community organizers who originally compiled this data, including making somewhat subjective and likely time-consuming 
+ assessments of things like raccoon confidence levels. Secondly, my labour of determining the most important features of this dataset to include in
+ the visualization, and the most clear and accessible way to present this information via Python visualization features.
+
+
