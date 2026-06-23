@@ -1,0 +1,46 @@
+
+Dataset: “Toronto Raccoon Activity Index” 
+https://open.toronto.ca/dataset/toronto-raccoon-activity-index/
+   
+ > What software did you use to create your data visualization?
+
+ Excel.
+
+ > Who is your intended audience? 
+
+ Torontonians who are interested in the behaviour of local raccoons, and in the relationship between their confidence levels and their likelihood to compromise bins.
+    
+ > What information or message are you trying to convey with your visualization? 
+
+ That, while there is a rise in the number of compromised bins in relation to raccoon confidence level, raccoons of all confidence levels have a tendency to compromise
+ bins. 
+    
+ > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+ I was interested in using colours that evoke the appearance of raccoons to increase the visual appeal, and found that this particular style of scatter graph allowed
+ for a grayscale colour scheme without compromising the clarity of the information. I also ensured that all numbers and titles are large and easy to read. 
+    
+ > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+ My data visualization utilizes publicly available data, and publicly available Excel features to create the visualization, so it is reproducible.
+    
+ > How did you ensure that your data visualization is accessible?
+
+ I ensured that I used a colour palette with high contrast and no overly similar colours. The grayscale itself also increases accessibility, for example for viewers
+ who may be colourblind. I also made all of the titles bold and in a large font that is easy to read.   
+    
+ > Who are the individuals and communities who might be impacted by your visualization?  
+
+ Torontonians who have bins that are at risk of being compromised by raccoons. 
+    
+ > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+ I was initially interested in trying to include more data features in the visualization, but found that the options available via Excel were tailored toward comparing/
+ contrasting just two data features. I contemplated also including the "proximity to patio" feature, but so few raccoon incidents occurred in proximity to patios that 
+ they did not show up on the graph, so I ultimately went with just raccoon confidence levels and number of compromised bins.
+    
+ > What ‘underwater labour’ contributed to your final data visualization product?
+
+ Firstly, the labour of the community organizers who originally compiled this data, including making somewhat subjective and likely time-consuming 
+ assessments of things like raccoon confidence levels. Secondly, my labour of determining the most important features of this dataset to include in
+ the visualization, and the most clear and accessible way to present this information via Excel visualization features.
